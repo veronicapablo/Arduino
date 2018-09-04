@@ -1,0 +1,13 @@
+void setup() {
+  // put your setup code here, to run once:
+  pinMode (7,OUTPUT); //Using the OUTPUT of PIN #7 
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite (7, HIGH); //PIN 7, LED LIGHT IS HIGH
+  delay (50); //The Light is high for 50ms.
+  digitalWrite (7, LOW);  //PIN 7, LED LIGHT IS LOW
+  delay (350); //The Light is low for 350ms.
+  
+}
